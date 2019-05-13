@@ -4,7 +4,7 @@ fastq=$1
 exp=$2
 datadir=~/Work/dataset/WGS/$exp
 refgen=~/Work/genomes/Homo_sapiens.GRCh37.dna.primary_assembly.fa/GRCh37.fa # full path to reference genome
-numbproc=32
+numbproc=24
 quality=30
 
 echo "Processing " $exp 
